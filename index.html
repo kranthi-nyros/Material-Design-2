@@ -1,0 +1,1451 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>cars.com</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <!--MDL--> 
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+      <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <!--MDL--> 
+      <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   </head>
+   <body>
+      <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+         <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+               <!-- Title -->
+               <span class="mdl-layout-title">
+               <img src="assets/images/logo.png" style=" margin-left: -20px; margin-right:250px;" >
+               </span>
+               <!-- Add spacer, to align navigation to the right -->
+               <div class="mdl-layout-spacer">
+                  <!-- Navigation. We hide it in small screens. -->
+                  <nav class="mdl-navigation mdl-layout--large-screen-only">
+                     <a class="mdl-navigation__link" href="">New Cars</a>
+                     <a class="mdl-navigation__link" href="">Used Cars</a>
+                     <a class="mdl-navigation__link" href="">Sell My Car</a>
+                     <a class="mdl-navigation__link" href="">Directory</a>
+                     <a class="mdl-navigation__link" href="">Directory</a>
+                     <a class="mdl-navigation__link" href="">Products</a>
+                     <a class="mdl-navigation__link" href="">Insurence</a>
+                     <a class="mdl-navigation__link" href="">Articles</a>
+                     <a class="mdl-navigation__link" href="">Forum</a>
+                     <a class="mdl-navigation__link" href="" style="margin-right: 120px;">Resources</a>
+                     <a style="margin-right: 15px;" class="login"> Login |</a>
+                     <a style="margin-right: 30px;" class="login"> Sign up</a>
+                  </nav>
+               </div>
+            </div>
+         </header>
+         <div class="mdl-layout__drawer" style="background-color: #202021!important">
+            <span class="mdl-layout-title">
+            <img src="assets/images/logo.png">
+            </span>
+            <nav class="mdl-navigation" style="color: white!important">
+               <a class="mdl-navigation__link" href="">New Cars</a>
+               <a class="mdl-navigation__link" href="">Used Cars</a>
+               <a class="mdl-navigation__link" href="">Sell My Car</a>
+               <a class="mdl-navigation__link" href="">Directory</a>
+               <a class="mdl-navigation__link" href="">Directory</a>
+               <a class="mdl-navigation__link" href="">Products</a>
+               <a class="mdl-navigation__link" href="">Insurence</a>
+               <a class="mdl-navigation__link" href="">Articles</a>
+               <a class="mdl-navigation__link" href="">Forum</a>
+               <a class="mdl-navigation__link" href="">Resources</a>
+            </nav>
+         </div>
+         <main class="mdl-layout__content">
+         <div class="page-content">
+            <div class="row">
+               <div class="cl-md-12 headers">
+                  <!-- sliders-->
+                  <div class="demo-cont">
+                     <!-- slider start -->
+                     <div class="fnc-slider example-slider">
+                        <div class="fnc-slider__slides">
+                           <!-- slide start -->
+                           <div class="fnc-slide m--blend-green m--active-slide">
+                              <div class="fnc-slide__inner">
+                                 <div class="fnc-slide__mask">
+                                    <div class="fnc-slide__mask-inner"></div>
+                                 </div>
+                                 <div class="fnc-slide__content">
+                                    <h2 class="fnc-slide__heading">
+                                       <div class="fnc-slide__heading-line">
+                                          <span style="font-size: 50px;">THE MOST AFFORDABLE</span>
+                                       </div>
+                                       <div class="fnc-slide__heading-line">
+                                          <span>FAMILY SUV.</span>
+                                       </div>
+                                    </h2>
+                                    <button type="button" class="fnc-slide__action-btn">
+                                    Credits
+                                    <span data-text="Credits">Credits</span>
+                                    </button>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- slide end -->
+                           <!-- slide start -->
+                           <div class="fnc-slide m--blend-dark">
+                              <div class="fnc-slide__inner">
+                                 <div class="fnc-slide__mask">
+                                    <div class="fnc-slide__mask-inner"></div>
+                                 </div>
+                                 <div class="fnc-slide__content">
+                                    <h2 class="fnc-slide__heading">
+                                       <div class="fnc-slide__heading-line">
+                                          <span style="font-size: 50px;">
+                                          Get the Highest price for your car when you sell it yourself.
+                                       </span>
+                                       </div>
+                                       <div class="fnc-slide__heading-line">
+                                          <span>A8</span>
+                                       </div>
+                                    </h2>
+                                    <button type="button" class="fnc-slide__action-btn">
+                                    Credits
+                                    <span data-text="Credits">Credits</span>
+                                    </button>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- slide end -->
+                           <!-- slide start -->
+                           <div class="fnc-slide m--blend-red">
+                              <div class="fnc-slide__inner">
+                                 <div class="fnc-slide__mask">
+                                    <div class="fnc-slide__mask-inner"></div>
+                                 </div>
+                                 <div class="fnc-slide__content">
+                                    <h2 class="fnc-slide__heading">
+                                       <div class="fnc-slide__heading-line">
+                                          <span style="font-size: 50px;">Mercedes-Benz</span>
+                                       </div>
+                                       <div class="fnc-slide__heading-line">
+                                          <span style="margin-top: -50px!important;">
+                                             <b style="font-size: 30px;margin-bottom:-100px!important;">GLC-Class TTS Eurocars Edition</b><br>
+                                             <p style="font-size: 20px;"> 
+                                                No waiting time! Own one from <br> $2,037/month, 20% d.p.
+                                             </p>
+                                          </span>
+                                       </div>
+                                    </h2>
+                                    <button type="button" class="fnc-slide__action-btn">
+                                    Credits
+                                    <span data-text="Credits">Credits</span>
+                                    </button>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- slide end -->
+                           <!-- slide start -->
+                           <div class="fnc-slide m--blend-blue">
+                              <div class="fnc-slide__inner">
+                                 <div class="fnc-slide__mask">
+                                    <div class="fnc-slide__mask-inner"></div>
+                                 </div>
+                                 <div class="fnc-slide__content">
+                                    <h2 class="fnc-slide__heading">
+                                       <div class="fnc-slide__heading-line">
+                                          <span>Audi</span>
+                                       </div>
+                                       <div class="fnc-slide__heading-line" style="margin-top: -20px;">
+                                          <span>
+                                             <b style="font-size: 30px;">GLC-Class TTS Eurocars Edition</b>
+                                             <p style="font-size: 20px;">
+                                                No waiting time! Own one from $2,037/month, 20% d.p.
+                                             </p>
+                                          </span>
+                                       </div>
+                                    </h2>
+                                    <button type="button" class="fnc-slide__action-btn">
+                                    Credits
+                                    <span data-text="Credits">Credits</span>
+                                    </button>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- slide end -->
+                        </div>
+                        <nav class="fnc-nav">
+                           <div class="fnc-nav__bgs">
+                              <div class="fnc-nav__bg m--navbg-green m--active-nav-bg"></div>
+                              <div class="fnc-nav__bg m--navbg-dark"></div>
+                              <div class="fnc-nav__bg m--navbg-red"></div>
+                              <div class="fnc-nav__bg m--navbg-blue"></div>
+                           </div>
+                           <div class="fnc-nav__controls">
+                              <button class="fnc-nav__control">
+                              Audi Blue Adition
+                              <span class="fnc-nav__control-progress"></span>
+                              </button>
+                              <button class="fnc-nav__control">
+                              Audi
+                              <span class="fnc-nav__control-progress"></span>
+                              </button>
+                              <button class="fnc-nav__control">
+                              Audi Red Adition
+                              <span class="fnc-nav__control-progress"></span>
+                              </button>
+                              <button class="fnc-nav__control">
+                              Audi
+                              <span class="fnc-nav__control-progress"></span>
+                              </button>
+                           </div>
+                        </nav>
+                     </div>
+                     <!-- slider end -->
+                     <div class="demo-cont__credits">
+                        <div class="demo-cont__credits-close"></div>
+                        <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/142996/profile/profile-512_5.jpg" alt="" class="demo-cont__credits-img" />
+                        
+                     
+                        <div class="colorful-switch">
+                           <input type="checkbox" class="colorful-switch__checkbox js-activate-global-blending" id="colorful-switch-cb" />
+                           
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Your content goes here -->
+         <div class="row" style="text-align: center; margin-top: 50px; margin-bottom: 100px;">
+            <div class="cl-md-12">
+               <!-- TAB CONTROLLERS -->
+               <input id="panel-1-ctrl"
+                  class="panel-radios" type="radio" name="tab-radios" checked>
+               <input id="panel-2-ctrl"
+                  class="panel-radios" type="radio" name="tab-radios">
+               <input id="panel-3-ctrl"
+                  class="panel-radios" type="radio" name="tab-radios">
+               <input id="panel-4-ctrl"
+                  class="panel-radios" type="radio" name="tab-radios">
+               <input id="panel-5-ctrl"
+                  class="panel-radios" type="radio" name="tab-radios">
+               <input id="nav-ctrl"
+                  class="panel-radios" type="checkbox" name="nav-checkbox">
+               <!-- TABS LIST -->
+               <ul id="tabs-list" style="margin-top: 20px;">
+                  <!-- MENU TOGGLE -->
+                  <label id="open-nav-label" for="nav-ctrl"></label>
+                  <li id="li-for-panel-1">
+                     <div class="signlogs" >
+                        <img src="https://png.icons8.com/dusk/50/000000/car.png"  style="margin-top: 15px;">
+                     </div>
+                     <label class="panel-label"
+                        for="panel-1-ctrl">New Cars </label>
+                  </li>
+                  <!--INLINE-BLOCK FIX
+                     -->
+                  <li id="li-for-panel-2">
+                     <div class="signlogs">
+                        <img src="https://png.icons8.com/dusk/50/000000/traffic-jam.png" style="margin-top: 15px;">
+                     </div>
+                     <label class="panel-label"
+                        for="panel-2-ctrl">Used Cars</label>
+                  </li>
+                  <!--INLINE-BLOCK FIX
+                     -->
+                  <li id="li-for-panel-3">
+                     <div class="signlogs">
+                        <img src="https://png.icons8.com/color/40/000000/gears.png" style="margin-top: 15px;">
+                     </div>
+                     <label class="panel-label"
+                        for="panel-3-ctrl">Motor Directory</label>
+                  </li>
+                  <!--INLINE-BLOCK FIX
+                     -->
+                  <li id="li-for-panel-4">
+                     <div class="signlogs">
+                        <img src="https://png.icons8.com/dusk/50/000000/menu.png" style="margin-top: 15px;">
+                     </div>
+                     <label class="panel-label"
+                        for="panel-4-ctrl">Product Guide</label>
+                  </li>
+                  <!--INLINE-BLOCK FIX
+                     -->
+                  <li id="li-for-panel-5" class="last">
+                     <div class="signlogs">
+                        <img src="https://png.icons8.com/color/40/000000/magazine.png" style="margin-top: 15px;">
+                     </div>
+                     <label class="panel-label"
+                        for="panel-5-ctrl">Articles</label>
+                  </li>
+                  <label id="close-nav-label" for="nav-ctrl">Close</label>
+               </ul>
+               <!-- THE PANELS -->
+               <article id="panels">
+                  <div class="container" >
+                     <section id="panel-1">
+                        <main style="background-image: url(assets/images/sub-1.png);">
+                           <div class="cl-md-12" style="display: inline-flex;">
+                              <div class="cl-md-6">
+                                 <input type="" name="" placeholder="Car Make or Modeal" class="newcars">
+                              </div>
+                              <div class="cl-md-3" style="margin-right: 20px;margin-top: -20px;">
+                                 <div class="select" style="margin-top: 20px; color: white">
+                                    <select name="slct" id="slct">
+                                       <option class="inner">Min Price</option>
+                                       <option class="inner" value="1">$70,0000</option>
+                                       <option class="inner"  value="2">$80,0000</option>
+                                       <option class="inner" value="3">$90,0000</option>
+                                       <option class="inner" value="4">$100,0000</option>
+                                       <option  class="inner"value="5">$110,0000</option>
+                                       <option class="inner" value="6">$120,0000</option>
+                                    </select>
+                                 </div>
+                              </div>
+                              <div class="cl-md-3" style="margin-top: -20px;">
+                                 <div class="select" style="margin-top: 20px; color: white;">
+                                    <select name="slct" id="slct">
+                                       <option class="inner">To Max</option>
+                                       <option class="inner" value="1">$70,0000</option>
+                                       <option class="inner"  value="2">$80,0000</option>
+                                       <option class="inner" value="3">$90,0000</option>
+                                       <option class="inner" value="4">$100,0000</option>
+                                       <option  class="inner"value="5">$110,0000</option>
+                                       <option class="inner" value="6">$120,0000</option>
+                                    </select>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="cl-md-12" style="display: inline-flex; margin-right:">
+                                 <div class="4" style="margin-right: 20px;">
+                                    <div class="select" style="margin-top: 20px; color: white;">
+                                       <select name="slct" id="slct">
+                                          <option class="inner">Depreciation</option>
+                                          <option class="inner" value="1">Below $10k /yr</option>
+                                          <option class="inner"  value="2">$10k to $11k /yr</option>
+                                          <option class="inner" value="3">$11k to $12k /yr</option>
+                                          <option class="inner" value="4">$12k to $14k /yr</option>
+                                          <option  class="inner" value="5">$14k to $16k /yr</option>
+                                          <option class="inner" value="6">$16k to $18k /yr</option>
+                                       </select>
+                                    </div>
+                                 </div>
+                                 <div class="4" style="margin-right: 20px;">
+                                    <div class="select" style="margin-top: 20px; color: white;">
+                                       <select name="slct" id="slct">
+                                          <option class="inner">Vehicle Type</option>
+                                          <option class="inner" value="1">Hybrid</option>
+                                          <option class="inner"  value="2">Hatchback</option>
+                                          <option class="inner" value="3">Luxury Sedan</option>
+                                          <option class="inner" value="4">MPV</option>
+                                          <option  class="inner" value="5">Mid-sized Sedan</option>
+                                          <option class="inner" value="6">Sports Car</option>
+                                       </select>
+                                    </div>
+                                 </div>
+                                 <div class="4">
+                                    <div class="select" style="margin-top: 20px; color: white;">
+                                       <select name="slct" id="slct">
+                                          <option class="inner">Dealer Type</option>
+                                          <option class="inner" value="1">Authorised Dealer</option>
+                                          <option class="inner"  value="2">Parallel Importer</option>
+                                          <option class="inner" value="3">Any</option>
+                                       </select>
+                                    </div>
+                                 </div>
+                                 <div style="margin-top: 25px; margin-left: 20px;">
+                                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="margin-right: 10px;
+                                       background-color: red!important;"
+                                       > Search
+                                    </button>
+                                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="background-color: red!important;"> View All
+                                    </button>
+                                 </div>
+                              </div>
+                           </div>
+                        </main>
+                     </section>
+                     <section id="panel-2">
+                        <main style="background-image: url(assets/images/sub-2.png);">
+                           <div class="cl-md-12" style="display: inline-flex;">
+                              <div class="cl-md-3">
+                                 <input type="" name="" placeholder="Car Make or Modeal" class="newcars">
+                              </div>
+                              <div class="cl-md-3" style="margin-right: 20px;margin-top: -20px;">
+                                 <div class="select" style="margin-top: 20px; color: white">
+                                    <select name="slct" id="slct">
+                                       <option class="inner">Low price</option>
+                                       <option class="inner" value="1">$70,0000</option>
+                                       <option class="inner"  value="2">$80,0000</option>
+                                       <option class="inner" value="3">$90,0000</option>
+                                       <option class="inner" value="4">$100,0000</option>
+                                       <option  class="inner"value="5">$110,0000</option>
+                                       <option class="inner" value="6">$120,0000</option>
+                                    </select>
+                                 </div>
+                              </div>
+                              <div class="cl-md-3" style="margin-top: -20px; margin-right: 20px;">
+                                 <div class="select" style="margin-top: 20px; color: white;">
+                                    <select name="slct" id="slct">
+                                       <option class="inner">To Higher Price</option>
+                                       <option class="inner" value="1">$70,0000</option>
+                                       <option class="inner"  value="2">$80,0000</option>
+                                       <option class="inner" value="3">$90,0000</option>
+                                       <option class="inner" value="4">$100,0000</option>
+                                       <option  class="inner"value="5">$110,0000</option>
+                                       <option class="inner" value="6">$120,0000</option>
+                                    </select>
+                                 </div>
+                              </div>
+                              <div class="cl-md-3" style="margin-top: -20px; ">
+                                 <div class="select" style="margin-top: 20px; color: white;">
+                                    <select name="slct" id="slct">
+                                       <option class="inner">Year Reg</option>
+                                       <option class="inner" value="1">$70,0000</option>
+                                       <option class="inner"  value="2">$80,0000</option>
+                                       <option class="inner" value="3">$90,0000</option>
+                                       <option class="inner" value="4">$100,0000</option>
+                                       <option  class="inner"value="5">$110,0000</option>
+                                       <option class="inner" value="6">$120,0000</option>
+                                    </select>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="cl-md-12" style="display: inline-flex; margin-right:">
+                                 <div class="4" style="margin-right: 20px;">
+                                    <div class="select" style="margin-top: 20px; color: white;">
+                                       <select name="slct" id="slct">
+                                          <option class="inner">Lower Depreciation</option>
+                                          <option class="inner" value="1">Below $10k /yr</option>
+                                          <option class="inner"  value="2">$10k to $11k /yr</option>
+                                          <option class="inner" value="3">$11k to $12k /yr</option>
+                                          <option class="inner" value="4">$12k to $14k /yr</option>
+                                          <option  class="inner" value="5">$14k to $16k /yr</option>
+                                          <option class="inner" value="6">$16k to $18k /yr</option>
+                                       </select>
+                                    </div>
+                                 </div>
+                                 <div class="4" style="margin-right: 20px;">
+                                    <div class="select" style="margin-top: 20px; color: white;">
+                                       <select name="slct" id="slct">
+                                          <option class="inner">Higer Depreciation</option>
+                                          <option class="inner" value="1">Hybrid</option>
+                                          <option class="inner"  value="2">Hatchback</option>
+                                          <option class="inner" value="3">Luxury Sedan</option>
+                                          <option class="inner" value="4">MPV</option>
+                                          <option  class="inner" value="5">Mid-sized Sedan</option>
+                                          <option class="inner" value="6">Sports Car</option>
+                                       </select>
+                                    </div>
+                                 </div>
+                                 <div class="4">
+                                    <div class="select" style="margin-top: 20px; color: white;">
+                                       <select name="slct" id="slct">
+                                          <option class="inner">Category</option>
+                                          <option class="inner" value="1">Authorised Dealer</option>
+                                          <option class="inner"  value="2">Parallel Importer</option>
+                                          <option class="inner" value="3">Any</option>
+                                       </select>
+                                    </div>
+                                 </div>
+                                 <div style="margin-top: 25px; margin-left: 20px;">
+                                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="margin-right: 10px;
+                                       background-color:red!important;"
+                                       > Search
+                                    </button>
+                                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="background-color: red!important;"> View All
+                                    </button>
+                                 </div>
+                              </div>
+                           </div>
+                        </main>
+                     </section>
+                     <section id="panel-3">
+                        <main style="background-image: url(assets/images/sub-1.png);">
+                           <div class="cl-md-12" style="display: inline-flex;">
+                              <div class="cl-md-6" style="margin-left: 100px;">
+                                 <input type="" name="" placeholder="Company name or product" class="newcars">
+                              </div>
+                              <div class="cl-md-3" style="margin-right: 20px;margin-top: -20px;">
+                                 <div class="select" style="margin-top: 20px; color: white; width: 500px!important;">
+                                    <select name="slct" id="slct">
+                                       <option class="inner">Any Category</option>
+                                       <option class="inner" value="1">$70,0000</option>
+                                       <option class="inner"  value="2">$80,0000</option>
+                                       <option class="inner" value="3">$90,0000</option>
+                                       <option class="inner" value="4">$100,0000</option>
+                                       <option  class="inner"value="5">$110,0000</option>
+                                       <option class="inner" value="6">$120,0000</option>
+                                    </select>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row" >
+                              <div class="cl-md-12" style="display: inline-flex;">
+                                 <div class="4" style="margin-right: 20px;">
+                                    <div class="select" style="margin-top: 20px; color: white;">
+                                       <select name="slct" id="slct">
+                                          <option class="inner">Any distance</option>
+                                          <option class="inner" value="1">Below $10k /yr</option>
+                                          <option class="inner"  value="2">$10k to $11k /yr</option>
+                                          <option class="inner" value="3">$11k to $12k /yr</option>
+                                          <option class="inner" value="4">$12k to $14k /yr</option>
+                                          <option  class="inner" value="5">$14k to $16k /yr</option>
+                                          <option class="inner" value="6">$16k to $18k /yr</option>
+                                       </select>
+                                    </div>
+                                 </div>
+                                 <div class="4" style="margin-right: 20px;">
+                                    <div class="select" style="margin-top: 20px; color: white;">
+                                       <select name="slct" id="slct">
+                                          <option class="inner">Your Addres/ Postal code</option>
+                                          <option class="inner" value="1">Hybrid</option>
+                                          <option class="inner"  value="2">Hatchback</option>
+                                          <option class="inner" value="3">Luxury Sedan</option>
+                                          <option class="inner" value="4">MPV</option>
+                                          <option  class="inner" value="5">Mid-sized Sedan</option>
+                                          <option class="inner" value="6">Sports Car</option>
+                                       </select>
+                                    </div>
+                                 </div>
+                                 <div style="margin-top: 25px; margin-left: 20px;">
+                                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="margin-right: 10px;
+                                       background-color: red!important;"
+                                       > Search
+                                    </button>
+                                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="background-color: red!important;"> View All
+                                    </button>
+                                 </div>
+                              </div>
+                           </div>
+                        </main>
+                     </section>
+                     <section id="panel-4" style="margin-top: -50px!important">
+                        <main>
+                           <main style="background-image: url(assets/images/sub-2.png);">
+                              <div class="cl-md-12" style="display: inline-flex; height: 100px;">
+                                 <div class="cl-md-3"> 
+                                    <input type="" name="" placeholder="Product type/ Brand" class="newcars">
+                                 </div>
+                                 <div class="cl-md-3" style="margin-right: 20px;margin-top: -20px;">
+                                    <div class="select" style="margin-top: 20px; color: white">
+                                       <select name="slct" id="slct">
+                                          <option class="inner">All Category</option>
+                                          <option class="inner" value="1">$70,0000</option>
+                                          <option class="inner"  value="2">$80,0000</option>
+                                          <option class="inner" value="3">$90,0000</option>
+                                          <option class="inner" value="4">$100,0000</option>
+                                          <option  class="inner"value="5">$110,0000</option>
+                                          <option class="inner" value="6">$120,0000</option>
+                                       </select>
+                                    </div>
+                                 </div>
+                                 <div style="margin-top: 2px; margin-left: 20px;">
+                                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="margin-right: 10px;
+                                       background-color: red!important;"
+                                       > Search
+                                    </button>
+                                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="background-color: red!important;"> View All
+                                    </button>
+                                 </div>
+                           </main>
+                     </section>
+                     <section id="panel-5">
+                     <main style="background-image: url(assets/images/sub-2.png);">
+                     <div class="cl-md-12" style="display: inline-flex; margin-top: 50px;">
+                     <div class="cl-md-3">
+                     <input type="" name="" placeholder="Keyword" class="newcars">
+                     </div>
+                     <div class="cl-md-3" style="margin-right: 20px;margin-top: -20px;">
+                     <div class="select" style="margin-top: 20px; color: white">
+                     <select name="slct" id="slct">
+                     <option class="inner">All Articles</option>
+                     <option class="inner" value="1">$70,0000</option>
+                     <option class="inner"  value="2">$80,0000</option>
+                     <option class="inner" value="3">$90,0000</option>
+                     <option class="inner" value="4">$100,0000</option>
+                     <option  class="inner"value="5">$110,0000</option>
+                     <option class="inner" value="6">$120,0000</option>
+                     </select>
+                     </div>
+                     </div>
+                     <div style="margin-top: 2px; margin-left: 20px;">
+                     <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="margin-right: 10px;
+                        background-color: red!important;"
+                        > Search
+                     </button>
+                     <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="background-color: red!important;"> View All
+                     </button>
+                     </div>
+                     </main>
+                     </section>
+                     </div>
+               </article>
+               <div class="row" style="margin-top: 80px;">
+               <h1>USED CARS</h1>
+               <div class="redstrip" style="margin-bottom: 30px; width: 100px;"> </div>
+               <div class="cl-md-12" style="display: inline-flex;">
+               <div class="cl-md-4 newcars-leftblock">
+               <div class="list-wrapper" style="width: 300px;">
+               <div class="list-container">
+               <div class="list-header-container">
+               <a href="" class="back-link">
+               <span class="glyphicon glyphicon-chevron-left" style="margin-top: 5px;"></span>
+               </a>
+               <h3 style="color: white;">
+               <span class="glyphicon glyphicon-tasks " style="color: white!important"> </span>
+               </h3>
+               </div>
+               <div class="list-body-container">
+               <ul id="list-0" class="list-0 active-list">
+               <li class="list-0-item">
+               <a href="#list-1" class="list-link"><span class="list-link-label">Categories.</span><span class="right-arrow">&gt;</span></a>
+               <ul id="list-1" class="list hidden">
+               <li class="list-item">
+               <a href="#list-1-1" class="list-link"><span class="list-link-label">Almost New Cars.</span><span class="right-arrow">&gt;</span></a 
+               </li>
+               <li class="list-item">
+               <a href="#list-1-2" class="list-link">
+               <span class="list-link-label">Auction vehicles.</span><span class="right-arrow">&gt;</span></a>
+               </li>
+               <li class="list-item">
+               <a href="#list-1-3" class="list-link"><span class="list-link-label">COE Cars.</span><span class="right-arrow">&gt;</span></a>                           
+               </li>
+               <li class="list-item">
+               <a href="#list-1-4" class="list-link"><span class="list-link-label">Direct Owner Sale</span><span class="right-arrow">&gt;</span></a>
+               </li>
+               <li class="list-item">
+               <a href="#list-1-4" class="list-link"><span class="list-link-label">Imported Used Vehicles.</span><span class="right-arrow">&gt;</span></a>
+               </li>
+               <li class="list-item">
+               <a href="#list-1-4" class="list-link"><span class="list-link-label">OPC Cars.</span><span class="right-arrow">&gt;</span></a>
+               </li>
+               <li class="list-item">
+               <a href="#list-1-4" class="list-link"><span class="list-link-label">PARF Cars.</span><span class="right-arrow">&gt;</span></a>
+               </li>
+               <li class="list-item">
+               <a href="#list-1-4" class="list-link"><span class="list-link-label">Premimum Ad Cars</span><span class="right-arrow">&gt;</span></a>
+               </li>
+               </ul>
+               </li>
+               <li class="list-item">
+               <a href="#list-2-4" class="list-link"><span class="list-link-label">Vehicle Type.</span><span class="right-arrow">&gt;</span></a>
+               <ul id="list-2-4" class="list hidden">
+               <li class="list-item"><a href="#" class="list-link"><span class="list-link-label">All Commercil Vehicles</span></a>
+               </li>
+               <li class="list-item"><a href="#" class="list-link"><span class="list-link-label">All Passenger Vehicles</span></a>
+               </li>
+               <li class="list-item"><a href="#" class="list-link"><span class="list-link-label">Mid Sized Sedan</span></a>
+               </li>
+               <li class="list-item"><a href="#" class="list-link"><span class="list-link-label">Luxary Sedan</span></a>
+               </li>
+               <li class="list-item"><a href="#" class="list-link"><span class="list-link-label">Hatch Back</span></a>
+               </li>
+               </ul>
+               <li>
+               <a href="#list-3" class="list-link"><span class="list-link-label">Used Car Details</span><span class="right-arrow">&gt;</span>
+               </a>
+               </li>
+               <li>
+               <a href="#list-3" class="list-link"><span class="list-link-label">Direct Owner Ads</span><span class="right-arrow">&gt;</span>
+               </a>
+               </li>
+               <li>
+               <a href="#list-3" class="list-link"><span class="list-link-label">Post An Ad</span><span class="right-arrow">&gt;</span>
+               </a>
+               </li>
+               </li>
+               </ul>
+               </li>
+               </div>
+               </div>
+               </div>
+               </div>
+               <div class="cl-md-8 newcars-rightblock">
+               <div class="wrapper">
+               <div class="col_third">
+               <div class="hover panel">
+               <div class="front">
+               <div class="box1">
+               <p>Front Side</p>
+               <img src="assets/images/used-1.jpg" class="img-fluid" alt="Responsive image">
+               </div>
+               </div>
+               <div class="back">
+               <div class="box2">
+               <h2>  Audi A1 <br>(2011-2015)</h2>
+               <!-- Accent-colored raised button with ripple -->
+               <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="background-color: #c41c00!important">
+               View More Details
+               </button>
+               </div>
+               </div>
+               </div>
+               </div>
+               <div class="col_third">
+               <div class="hover panel">
+               <div class="front">
+               <div class="box1">
+               <p>Front Side</p>
+               <img src="assets/images/used-6.jpg" class="img-fluid" alt="Responsive image">
+               </div>
+               </div>
+               <div class="back">
+               <div class="box2">
+               <h2>   Rolls-Royce Ghost Series <br> II (2015)</h2>
+               <!-- Accent-colored raised button with ripple -->
+               <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="background-color:#c41c00!important">
+               View More Details
+               </button>
+               </div>
+               </div>
+               </div>
+               </div>
+               <div class="col_third end">
+               <div class="hover panel">
+               <div class="front">
+               <div class="box1">
+               <p>Front Side</p>
+               <img src="assets/images/used-5.jpg" class="img-fluid" alt="Responsive image">
+               </div>
+               </div>
+               <div class="back">
+               <div class="box2">
+               <h2>   Mercedes-Benz <br>S-Class (2012)</h2>
+               <!-- Accent-colored raised button with ripple -->
+               <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="background-color:#c41c00!important">
+               View More Details
+               </button>
+               </div>
+               </div>
+               </div>
+               </div>
+               </div>
+               <div class="wrapper">
+               <div class="col_third">
+               <div class="hover panel">
+               <div class="front">
+               <div class="box1">
+               <p>Front Side</p>
+               <img src="assets/images/used-4.jpg" class="img-fluid" alt="Responsive image">
+               </div>
+               </div>
+               <div class="back">
+               <div class="box2">
+               <h2>Hyundai Sonata <br>VIII 2.0A</h2>
+               <!-- Accent-colored raised button with ripple -->
+               <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="background-color: #c41c00!important">
+               View More Details
+               </button>
+               </div>
+               </div>
+               </div>
+               </div>
+               <div class="col_third">
+               <div class="hover panel">
+               <div class="front">
+               <div class="box1">
+               <p>Front Side</p>
+               <img src="assets/images/used-3.jpg" class="img-fluid" alt="Responsive image">
+               </div>
+               </div>
+               <div class="back">
+               <div class="box2">
+               <h2>Ferrari <br>458 Italia</h2>
+               <!-- Accent-colored raised button with ripple -->
+               <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="background-color:#c41c00!important">
+               View More Details
+               </button>
+               </div>
+               </div>
+               </div>
+               </div>
+               <div class="col_third end">
+               <div class="hover panel">
+               <div class="front">
+               <div class="box1">
+               <p>Front Side</p>
+               <img src="assets/images/used-2.jpg" class="img-fluid" alt="Responsive image">
+               </div>
+               </div>
+               <div class="back">
+               <div class="box2">
+               <h2>  Audi A8 <br>(2015-2017)</h2>
+               <!-- Accent-colored raised button with ripple -->
+               <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="background-color: #c41c00!important">
+               View More Details
+               </button>
+               </div>
+               </div>
+               </div>
+               </div>
+               </div>           
+               </div>
+               </div>
+               <!--add-->
+               <div class="row" style="margin-top: -50px; text-align: center;">
+               <h2>POST AN ADVERTISEMENT</h2>
+               <div class="redstrip">
+               </div>
+               <div class="cl-md-12 addbaner" class="addbaner">
+               <h1><b>GET THE HIGHEST PRICE FOR YOUR CAR <br> 
+               WHEN YOU SELL IT 
+               YOURSELF.</b>
+               </h1>
+               <h2>Advertise at only $58 until it's SOLD!</h2>
+               <!-- Accent-colored raised button with ripple -->
+               <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent post">
+               Post an Add
+               </button>
+               </div>
+               </div>
+               <!--add end-->
+               <!--new cars-->
+               <h2>NEW CARS</h2>
+               <div class="redstrip" 
+                  style="width: 100px; 
+                  margin-bottom: 30px;">
+               </div>       
+               <div class="container-fluid" style="margin-top: 30px;" >
+               <div class="row">
+               <div class="tabs-wrapper tabbable tabs-top tabs-4">
+               <ul class="nav nav-tabs">
+               <li class="active tab-1" style="margin-left:20%;">
+               <a href="#tab-1-754788079" data-toggle="tab">POPULAR NEW CARS</a>
+               </li>
+               <li class="tab-2">
+               <a href="#tab-2-754788079" data-toggle="tab">NEW CAR LAUNCH</a>
+               </li>
+               <li class="tab-3">
+               <a href="#tab-3-754788079" data-toggle="tab">NEW CAR PROMOTION</a>
+               </li>
+               </ul>
+               <div class="tab-content">
+               <div id="tab-1-754788079" class="tab-pane fade in active">
+               <!--new cars-->
+               <div class="row">
+               <div class="cl-md-12">
+               <div id="sequence" class="seq">
+               <div class="seq-screen">
+               <ul class="seq-canvas">
+               <li>
+               <div class="seq-model">
+               <img src="assets/images/volvo.png" 
+                  class="" alt="volvo" 
+                  style=" margin-right: -100px;  width: 600PX;"> 
+               </div>
+               <div class="seq-title">
+               <h2 data-seq style="margin-bottom:50px;">
+               Volvo Shuttle Hybrid Trust Motoring Edition..
+               </h2>
+               <h3 data-seq style="margin-right:40px!important;"> 
+               <p style="color: black">Ready Stocks, Immediate Registration, 10% Down Payment Only!</p>
+               <button data-seq class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent data-seq"
+                  style="background-color: #f96020;">
+               View More Details
+               </button> 
+               </h3>
+               </div>
+               </li>
+               <li>
+               <div class="seq-model">
+               <img src="assets/images/BMW.png" 
+                  class="" alt="BMW" 
+                  style=" margin-right: -100px;  width: 600PX;"> 
+               </div>
+               <div class="seq-title">
+               <h2 data-seq style="margin-bottom:50px;">
+               BMW 5-Series Sedan Diesel TTS Edition
+               </h2>
+               <h3 data-seq style="margin-right:40px!important;"> 
+               <p style="color: black">Ready Stocks, Immediate Registration, 10% Down Payment Only!</p>
+               <button data-seq class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent data-seq"
+                  style="background-color: #f96020;">
+               View More Details
+               </button> 
+               </h3>
+               </div>
+               </li>
+               <li>
+               <div class="seq-model">
+               <img src="assets/images/Benz.png" 
+                  class="" alt="Benz" 
+                  style=" margin-right:-106px; "> 
+               </div>
+               <div class="seq-title">
+               <h2 data-seq style="margin-bottom:50px;">
+               Toyota Sienta Hybrid Trust Motoring Edition
+               </h2>
+               <h3 data-seq style="margin-right:40px!important;"> 
+               <p style="color: black">Ready Stocks, Immediate Registration, 10% Down Payment Only!</p>
+               <button data-seq class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent data-seq"
+                  style="background-color: #f96020;">
+               View More Details
+               </button> 
+               </h3>
+               </div>
+               </li>
+               </ul>
+               </div>
+               <fieldset class="seq-nav" aria-controls="sequence" aria-label="Slider buttons">
+               <button type="button" class="seq-prev" aria-label="Previous">
+               <span class="glyphicon glyphicon-chevron-left" 
+                  style="color:white!important; font-size: 50px!important;"> 
+               </span> 
+               </button>
+               <button type="button" class="seq-next" aria-label="Next">
+               <span class="glyphicon glyphicon-chevron-right" 
+                  style="color:white!important; font-size: 50px!important;"> 
+               </span> 
+               </button>
+               </fieldset>
+               </div>
+               <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/154/imagesloaded.pkgd.min.js"></script>
+               <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/154/hammer.min.js"></script>
+               <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/154/sequence.min.js"></script>
+               </div>
+               </div>
+               </div>
+               <!-- .tab (end) -->
+               <div id="tab-2-754788079" class="tab-pane fade">
+               <div class="row">
+               <div id="adv_team_4_columns_carousel" class="carousel slide four_shows_one_move team_columns_carousel_wrapper" data-ride="carousel" data-interval="2000" data-pause="hover">
+               <!--========= Wrapper for slides =========-->
+               <div class="carousel-inner" role="listbox">
+               <!--========= 1st slide =========-->
+               <div class="item" style="margin-top:-50px!important;">
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image">
+               <img src="assets/images/upcars-one.jpg" alt="slider 01">
+               <div class="team_columns_item_caption">
+               <h4>Ferrari 
+               <br>
+               <p> ₹ 10 - 13 Lakhs
+               <br>
+               Expected Launch: February 2018</p>
+               </h4>
+               <hr>
+               <!-- Accent-colored raised button with ripple -->
+               <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="background-color: #f96020!important; margin-top:-10px!important;">
+               View More Details
+               </button>
+               </div>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-1">
+               <img src="assets/images/upcars-two.jpg" alt="slider 02">
+               <div class="team_columns_item_caption">
+               <h4>Ferrari 
+               <br>
+               <p> ₹ 10 - 13 Lakhs
+               <br>
+               Expected Launch: February 2018</p>
+               </h4>
+               <hr>
+               <!-- Accent-colored raised button with ripple -->
+               <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="background-color: #f96020!important; margin-top:-10px!important;">
+               View More Details
+               </button>
+               </div>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-2">
+               <img src="assets/images/upcars-three.jpg" alt="slider 02">
+               <div class="team_columns_item_caption">
+               <h4>Ferrari 
+               <br>
+               <p> ₹ 10 - 13 Lakhs
+               <br>
+               Expected Launch: February 2018</p>
+               </h4>
+               <hr>
+               <!-- Accent-colored raised button with ripple -->
+               <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="background-color: #f96020!important; margin-top:-10px!important;">
+               View More Details
+               </button>
+               </div>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-3">
+               <img src="assets/images/upcars-four.jpg" alt="slider 02">
+               <div class="team_columns_item_caption">
+               <h4>Ferrari 
+               <br>
+               <p> ₹ 10 - 13 Lakhs
+               <br>
+               Expected Launch: February 2018</p>
+               </h4>
+               <hr>
+               <!-- Accent-colored raised button with ripple -->
+               <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="background-color: #f96020!important; margin-top:-10px!important;">
+               View More Details
+               </button>
+               </div>
+               </div>
+               </div>
+               <!--========= 2nd slide =========-->
+               <div class="item active" style="margin-top:-50px!important;">
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image">
+               <img src="assets/images/upcars-five.jpg" alt="slider 02">
+               <div class="team_columns_item_caption">
+               <h4>Ferrari 
+               <br>
+               <p> ₹ 10 - 13 Lakhs
+               <br>
+               Expected Launch: February 2018</p>
+               </h4>
+               <hr>
+               <!-- Accent-colored raised button with ripple -->
+               <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="background-color: #f96020!important; margin-top:-10px!important;">
+               View More Details
+               </button>
+               </div>
+               </div>
+               <!--========= 3rd slide =========-->
+               <div class="item">
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image">
+               <img src="assets/images/upcars-nine.jpg" alt="slider 02">
+               <div class="team_columns_item_caption">
+               <h4>Ferrari 
+               <br>
+               <p> ₹ 10 - 13 Lakhs
+               <br>
+               Expected Launch: February 2018</p>
+               </h4>
+               <hr>
+               <!-- Accent-colored raised button with ripple -->
+               <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="background-color: #f96020!important; margin-top:-10px!important;">
+               View More Details
+               </button>
+               </div>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-1">
+               <img src="assets/images/upcars-ten.jpg" alt="slider 02">
+               <div class="team_columns_item_caption">
+               <h4>Ferrari 
+               <br>
+               <p> ₹ 10 - 13 Lakhs
+               <br>
+               Expected Launch: February 2018</p>
+               </h4>
+               <hr>
+               <!-- Accent-colored raised button with ripple -->
+               <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="background-color: #f96020!important; margin-top:-10px!important;">
+               View More Details
+               </button>
+               </div>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-2">
+               <img src="assets/images/upcars-leaven.jpg" alt="slider 02">
+               <div class="team_columns_item_caption">
+               <h4>Ferrari 
+               <br>
+               <p> ₹ 10 - 13 Lakhs
+               <br>
+               Expected Launch: February 2018</p>
+               </h4>
+               <hr>
+               <!-- Accent-colored raised button with ripple -->
+               <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="background-color: #f96020!important; margin-top:-10px!important;">
+               View More Details
+               </button>
+               </div>
+               </div>
+               </div>
+               </div>
+               </div>
+               <!--======= Navigation Buttons =========-->
+               <!--======= Left Button =========-->
+               <a class="fa left carousel-control team_columns_carousel_control_left adv_left bottlel"
+                  aria-hidden="true" href="#adv_team_4_columns_carousel" role="button" data-slide="prev">
+               <!--======= Right Button =========-->
+               <a class=" fa right carousel-control team_columns_carousel_control_right adv_right bottler" aria-hidden="true" href="#adv_team_4_columns_carousel" role="button" data-slide="next">
+               </a>
+               </div>
+               </div>
+               </div>
+               <!-- .tab (end) -->
+               <div id="tab-3-754788079" class="tab-pane fade">
+               <div style="display: inline-flex;">         
+               <div class="product-card">
+               <div class="product-image">
+               <img src="assets/images/promotion-two.png"  
+                  style="margin-top:155px!important;">
+               </div>
+               <div class="product-details">
+               <h1>Jeep Compass
+               <br>
+               <b style="font-size: 15px;">(Parallel Imported)</b>
+               </h1>
+               <p style="color:#424242; margin-top: -20px;">Great product title for a great product and <br>all of the extra things a product might need to 
+               make it fill an entire card.</p>
+               <button type="button" class="btn"  style="background-color: #f96020!important">View Details
+               </button>
+               </div>
+               </div>
+               <div class="product-card" style="margin-left: 50px;">
+               <div class="product-details">
+               <h1> Honda Vezel Hybrid <br>
+               <b style="font-size: 15px;">(Parallel Imported)</b></h1>
+               <p style="color:#424242; font-size: 15px; margin-top: -20px;">
+               Honda Freed Hybrid 1.5 G 6-Seater Honda Sensing (A) - $109,999<br>
+               Honda Freed Hybrid 1.5 G 7-Seater Honda Sensing (A) - $109,999
+               </p>
+               <button type="button" class="btn" style="background-color: #f96020!important">View Details</button>
+               </div>
+               <div class="product-image" 
+                  style="margin-top:240px!important;">
+               <img src="assets/images/promotion-one.png">
+               </div>
+               </div>
+               </div>
+               <!--cars2-->
+               <div style="display: inline-flex; margin-top: -50px;">         
+               <div class="product-card">
+               <div class="product-image">
+               <img src="assets/images/promotion-three.png"  
+                  style="margin-top:200px!important;">
+               </div>
+               <div class="product-details">
+               <h1>Ferrari 488 GTB
+               <br>
+               <b style="font-size: 15px;">(Parallel Imported)</b>
+               </h1>
+               <p style="color:#424242; font-size: 15px; margin-top: -20px; width: 330px; margin-left:120px;">
+               ALL-NEW, HIGHLY ANTICIPATED! 
+               </p>
+               <button type="button" class="btn"  style="background-color: #f96020!important">View Details
+               </button>
+               </div>
+               </div>
+               <div class="product-card" style="margin-left: 50px;">
+               <div class="product-details">
+               <h1> Audi A3 <br>
+               <b style="font-size: 15px;">(Parallel Imported)</b></h1>
+               <p style="color:#424242; font-size: 15px; margin-top: -20px; width: 330px; margin-left:120px;">
+               ALL-NEW, HIGHLY ANTICIPATED! 
+               </p>
+               <button type="button" class="btn" style="background-color: #f96020!important">View Details</button>
+               </div>
+               <div class="product-image" 
+                  style="margin-top:210px!important;">
+               <img src="assets/images/promotion-four.png">
+               </div>
+               </div>
+               </div>
+               </div>
+               </div>
+               </div><!-- .tab-content (end) --></div>
+               </div>
+               </div>
+               <!--new cars end-->
+               <!--Rivews-->
+               <div class="container">
+               <div class="row">
+               <h2>CONSUMER REVIEWS</h2>
+               </div>
+               <div class="redstrip" 
+                  style="width: 100px; 
+                  margin-bottom: 30px;">
+               </div>      
+               </div>
+               <div class="carousel-reviews broun-block">
+               <div class="container">
+               <div class="row">
+               <div id="carousel-reviews" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+               <div class="item active">
+               <div class="col-md-4 col-sm-6">
+               <div class="block-text rel zmin">
+               <a title="" href="#">As good as cleaning your exhaust</a>
+               <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
+               <p>Cute bottles, handle design. Initially thought will have problem pouring in my fuel tank as mine is the metal flap kind, was surprise able to do it without any issue.Can feel that the engine is quieter, nothing much so far. To be honest Caltex diesel i always felt not so powerful compared to others, but it is definitely smooth.</p>
+               <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+               </div>
+               <div class="person-text rel">
+               <img src="assets/images/review-one.png">
+               <a title="" href="#">Anna</a>
+               <i>from Glasgow, Scotland</i>
+               </div>
+               </div>
+               <div class="col-md-4 col-sm-6 hidden-xs">
+               <div class="block-text rel zmin">
+               <a title="" href="#">It works!</a>
+               <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star-empty"></span><span data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
+               <p>My 12 months old E220D @ 20K is relatively smooth. Hence there was no significant improvement in smoothness or noise. I do travel up north often, and had been using Euro 5 diesel there from various brands, some good, and some really terrible, with immediate effect of ride and noise. The techcron seems to level the field so I guess the effect is probably best with lower grade diesel fuel.  </p>
+               <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+               </div>
+               <div class="person-text rel">
+               <img src="assets/images/review-two.png">
+               <a title="" href="#">Ella Mentree</a>
+               <i>United States</i>
+               </div>
+               </div>
+               <div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+               <div class="block-text rel zmin">
+               <a title="" href="#">Planes: Fire & Rescue</a>
+               <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span>  </span></div>
+               <p>The engine is a lot quieter on idle and acceleration is considerably smoother as well. And it doesn't end with one tank. The perception continues into my second fill-up. The FC is also more consistent, so it doesn't dip too much during start-stop traffic. </p>
+               <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+               </div>
+               <div class="person-text rel">
+               <img src="assets/images/review-three.png">
+               <a title="" href="#">Rannynm</a>
+               <i>Indonesia</i>
+               </div>
+               </div>
+               </div>
+               <div class="item">
+               <div class="col-md-4 col-sm-6">
+               <div class="block-text rel zmin">
+               <a title="" href="#">Techron D Concentrate Plus</a>
+               <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
+               <p>For my Kia Carens 1.7L Diesel, moving off have been jerky, as the manual said DCT GB is like that one. So after using Techron D, it seems to have smoothen out abit, even into the second tank without the magic potion... </p>
+               <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+               </div>
+               <div class="person-text rel">
+               <img alt="" src="assets/images/review-four.png">
+               <a title="" href="#">Anna</a>
+               <i>from Glasgow, Scotland</i>
+               </div>
+               </div>
+               <div class="col-md-4 col-sm-6 hidden-xs">
+               <div class="block-text rel zmin">
+               <a title="" href="#">Immediate impact after use</a>
+               <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star-empty"></span><span data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
+               <p>For my Kia Carens 1.7L Diesel, moving off have been jerky, as the manual said DCT GB is like that one. So after using Techron D, it seems to have smoothen out abit, even into the second tank without the magic potion...   </p>
+               <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+               </div>
+               <div class="person-text rel">
+               <img alt="" src="assets/images/review-five.png">
+               <a title="" href="#">Ella Mentree</a>
+               <i>United States</i>
+               </div>
+               </div>
+               <div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+               <div class="block-text rel zmin">
+               <a title="" href="#">Improvement Noted in 1st Bottle</a>
+               <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span>  </span></div>
+               <p>For my Kia Carens 1.7L Diesel, moving off have been jerky, as the manual said DCT GB is like that one. So after using Techron D, it seems to have smoothen out abit, even into the second tank without the magic potion.... </p>
+               <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+               </div>
+               <div class="person-text rel">
+               <img alt="" src="assets/images/review-sixe.png">
+               <a title="" href="#">Rannynm</a>
+               <i>Indonesia</i>
+               </div>
+               </div>
+               </div>
+               <div class="item">
+               <div class="col-md-4 col-sm-6">
+               <div class="block-text rel zmin">
+               <a title="" href="#">Improvement in FC and Response</a>
+               <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
+               <p>For my Kia Carens 1.7L Diesel, moving off have been jerky, as the manual said DCT GB is like that one. So after using Techron D, it seems to have smoothen out abit, even into the second tank without the magic potion....</p>
+               <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+               </div>
+               <div class="person-text rel">
+               <img alt="" src="assets/images/review-three.png">
+               <a title="" href="#">Anna</a>
+               <i>from Glasgow, Scotland</i>
+               </div>
+               </div>
+               <div class="col-md-4 col-sm-6 hidden-xs">
+               <div class="block-text rel zmin">
+               <a title="" href="#">Good for commercial vehicles</a>
+               <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star-empty"></span><span data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
+               <p>My colleague wanted to sent his L200 to clean his exhaust and flush the engine. Then he asked to try the techron D. So I passed him my bottle. After a few days he begin to experience better pick up and engine responsiveness.  </p>
+               <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+               </div>
+               <div class="person-text rel">
+               <img alt="" src="assets/images/review-four.png">
+               <a title="" href="#">Ella Mentree</a>
+               <i>United States</i>
+               </div>
+               </div>
+               <div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+               <div class="block-text rel zmin">
+               <a title="" href="#">As good as cleaning your exhaust</a>
+               <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span>  </span></div>
+               <p>I was going to use it on my Dmax when my colleague at his L200 doesn't have much power. So we used the techron d on his vehicle. After 3 days, my colleague feedback that his vehicle is more responsive than before.... </p>
+               <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+               </div>
+               <div class="person-text rel">
+               <img alt="" src="assets/images/review-one.png">
+               <a title="" href="#">Rannynm</a>
+               <i>Indonesia</i>
+               </div>
+               </div>
+               </div>                    
+               </div>
+               <a class="left carousel-control" href="#carousel-reviews" role="button" data-slide="prev">
+               <span class="glyphicon glyphicon-chevron-left"></span>
+               </a>
+               <a class="right carousel-control" href="#carousel-reviews" role="button" data-slide="next">
+               <span class="glyphicon glyphicon-chevron-right"></span>
+               </a>
+               </div>
+               </div>
+               </div>
+               </div>
+               <!--Rivews end-->
+               <!--sell-->
+               <div class="row" style="margin-top: 100px;" >
+               <h2>SELL CAR</h2>
+               <div class="redstrip" 
+                  style="width: 100px; 
+                  margin-bottom: 30px;">
+               </div>      
+               <div class="cl-md-12 sell" style="background-image: url(assets/images/big.png);">
+               <div class='pricing pricing-palden' style="padding-top: 40px;">
+               <div class='pricing-item'>
+               <div class='pricing-deco'>
+               <svg class='pricing-deco-img' enable-background='new 0 0 300 100' height='100px' id='Layer_1' preserveAspectRatio='none' version='1.1' viewBox='0 0 300 100' width='300px' x='0px' xml:space='preserve' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg' y='0px'>
+               <path class='deco-layer deco-layer--1' d='M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729&#x000A;  c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z' fill='#FFFFFF' opacity='0.6'></path>
+               <path class='deco-layer deco-layer--2' d='M-35.667,44.628c0,0,42.91-34.463,87.51-14.191c77.31,35.141,113.304-1.952,146.639-4.729&#x000A; c48.653-4.055,69.939,16.218,69.939,16.218v54.396H-35.667V44.628z' fill='#FFFFFF' opacity='0.6'></path>
+               <path class='deco-layer deco-layer--3' d='M43.415,98.342c0,0,48.283-68.927,109.133-68.927c65.886,0,97.983,67.914,97.983,67.914v3.716&#x000A;   H42.401L43.415,98.342z' fill='#FFFFFF' opacity='0.7'></path>
+               <path class='deco-layer deco-layer--4' d='M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428&#x000A;  c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z' fill='#FFFFFF'></path>
+               </svg>
+               <div class='pricing-price'><span class='pricing-currency'>
+               <img src="assets/images/sell-three.png">
+               <h2 style="margin-top: -20px;">FIND YOUR BUYER!</h2>
+               </div>
+               <h3 class='pricing-title'>sgCarMart.com</h3>
+               </div>
+               <ul class='pricing-feature-list'">
+               <h3>Get offers from 500 <br> car dealers
+               in 1 simple<br> step-sgCarMart Quotz</h3>
+               <h3> We will handle all your <br> paperwork, loans and insurance for FREE!</h3>  
+               </ul>
+               <button class='pricing-action'>View Details</button>
+               </div>
+               <div class='pricing-item pricing__item--featured'>
+               <div class='pricing-deco'>
+               <svg class='pricing-deco-img' enable-background='new 0 0 300 100' height='100px' id='Layer_1' preserveAspectRatio='none' version='1.1' viewBox='0 0 300 100' width='300px' x='0px' xml:space='preserve' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg' y='0px'>
+               <path class='deco-layer deco-layer--1' d='M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729&#x000A;  c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z' fill='#FFFFFF' opacity='0.6'></path>
+               <path class='deco-layer deco-layer--2' d='M-35.667,44.628c0,0,42.91-34.463,87.51-14.191c77.31,35.141,113.304-1.952,146.639-4.729&#x000A; c48.653-4.055,69.939,16.218,69.939,16.218v54.396H-35.667V44.628z' fill='#FFFFFF' opacity='0.6'></path>
+               <path class='deco-layer deco-layer--3' d='M43.415,98.342c0,0,48.283-68.927,109.133-68.927c65.886,0,97.983,67.914,97.983,67.914v3.716&#x000A;   H42.401L43.415,98.342z' fill='#FFFFFF' opacity='0.7'></path>
+               <path class='deco-layer deco-layer--4' d='M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428&#x000A;  c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z' fill='#FFFFFF'></path>
+               </svg>
+               <div class='pricing-price'>
+               <img src="assets/images/sell.png" style="margin-left: -50px;">
+               <h2>SELL TO CAR DEALERS</h2>
+               </div>
+               <h3 class='pricing-title'>sgCarMart.com</h3>
+               </div>
+               <ul class='pricing-feature-list'>
+               <h3>Get offers from 500 <br> car dealers
+               in 1 simple<br> step-sgCarMart Quotz</h3>
+               </ul>
+               <button class='pricing-action'>View Details</button>
+               </div>
+               <div class='pricing-item'>
+               <div class='pricing-deco'>
+               <svg class='pricing-deco-img' enable-background='new 0 0 300 100' height='100px' id='Layer_1' preserveAspectRatio='none' version='1.1' viewBox='0 0 300 100' width='300px' x='0px' xml:space='preserve' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg' y='0px'>
+               <path class='deco-layer deco-layer--1' d='M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729&#x000A;  c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z' fill='#FFFFFF' opacity='0.6'></path>
+               <path class='deco-layer deco-layer--2' d='M-35.667,44.628c0,0,42.91-34.463,87.51-14.191c77.31,35.141,113.304-1.952,146.639-4.729&#x000A; c48.653-4.055,69.939,16.218,69.939,16.218v54.396H-35.667V44.628z' fill='#FFFFFF' opacity='0.6'></path>
+               <path class='deco-layer deco-layer--3' d='M43.415,98.342c0,0,48.283-68.927,109.133-68.927c65.886,0,97.983,67.914,97.983,67.914v3.716&#x000A;   H42.401L43.415,98.342z' fill='#FFFFFF' opacity='0.7'></path>
+               <path class='deco-layer deco-layer--4' d='M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428&#x000A;  c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z' fill='#FFFFFF'></path>
+               </svg>
+               <div class='pricing-price'>
+               <img src="assets/images/sell-two.png">
+               <h2 style="margin-top: -10px;">SELL BY CONSIGNMENT</h2>
+               </div>
+               <h3 class='pricing-title'>sgCarMart.com</h3>
+               </div>
+               <ul class='pricing-feature-list' style="margin-top: -30px!important;">
+               <li class='pricing-feature'>
+               <h3>Decide your own price! Consignment  agents help <br> sell your car at the <br> price you want.</h3>
+               </li>
+               </ul>
+               <button class='pricing-action'>View Details</button>
+               </div>
+               </div>
+               </div>
+               </div>
+               <!--sell-end-->
+               <!--clients-->
+               <div class="container" style="margin-top: 20px;">
+               <h2>OUR PARTNERS</h2>
+               <div class="redstrip" 
+                  style="width: 100px; 
+                  margin-bottom: 30px;">
+               </div>      
+               <div class="cl-md-12" 
+                  style="display: inline-flex!important; margin-bottom:100px;
+                  margin-top:30px;">
+               <div class="cl-md-3" style="margin-right: 30px;">
+               <img class="img-responsive" src="assets/images/company-one.jpg">
+               </div>
+               <div class="cl-md-3" style="margin-right: 30px;">
+               <img class="img-responsive" src="assets/images/company-two.jpg">
+               </div>
+               <div class="cl-md-3" style="margin-right: 30px;">
+               <img class="img-responsive" src="assets/images/company-three.jpg">
+               </div>
+               </div>
+               </div>
+               <!--clients END-->
+               <!--fOOTER-->
+               <div class="row">
+               <div class="cl-md-12" style="height: 5px; background-color: #f96020;">                        
+               </div>
+               </div>          
+               <div class="row footer">
+               <div class="cl-md-12" style="display: inline-flex;">
+               <div class="cl-md-3">
+               <ul class="footerlist" style="display: inline-flex;">
+               <li><a href=""> Tool & Tip | </a></li>
+               <li><a href="">About Us |</a></li>
+               <li><a href="">Careers |</a></li>
+               <li><a href="">Contact Us |</a></li>
+               <li><a href=""> Sitemap |</a></li>
+               </ul>
+               </div>
+               <div class="cl-md-3" style="margin-left: 600px; margin-top:10px;">
+               <div class="social-btns" style="top:auto;position:relative; margin-top:10px;">
+               <P>subscribe<P>
+               <a class="btn facebook" href="#">
+               <i class="fa fa-facebook">
+               </i>
+               </a>
+               <a class="btn twitter" href="#">
+               <i class="fa fa-twitter">
+               </i>
+               </a>
+               <a class="btn google" href="#">
+               <i class="fa fa-google">      
+               </i>
+               </a>
+               </div>
+               </div>
+               </div>
+               </div>
+               <div class="cl-md-12 subfooter">
+               <div class="cl-md-3" style="float: left;margin-left:320px; margin-top: 20px;">
+               <p>© 2004-2018 sgCarMart. All rights reserved.</p>
+                </div>
+               <div class="cl-md-3" style="margin-top: -50px; float: right; margin-left:300px;">
+               <ul class="footerlist" style="display: inline-flex;">
+               <li><a href=""> Terms of Service | </a></li>
+               <li><a href="">  Privacy Policy |</a></li>
+               <li><a href="">Personal Data Protection Statemen |</a></li>               
+               </ul>
+               </div>
+               </div>
+               <!--fOOTER END-->
+               </div> 
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </main>
+      </div>
+      <script type="text/javascript" src="script.js"></script>
+   </body>
+</html>
